@@ -48,11 +48,9 @@ function SideMenu() {
 
                         <div className="sub-menu-content" onClick={closeNav}>
                           <Link to="/sumar/electrogenodiesel">
-                            <a >Diesel</a>
+                            <a >Diesel y Gas</a>
                           </Link>
-                          <Link to="/sumar/electrogenogas">
-                            <a>Gas</a>
-                          </Link>
+                          
                         </div>
                       </div>
 
