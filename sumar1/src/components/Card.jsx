@@ -41,7 +41,7 @@ const Card = () => {
 
 
                 <div className="card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <Link to="/sumar/TijeraElectrica">
+                    <Link to="/sumar/BrazoArtDiesel">
                         <img
                             className="card-image"
                             src={recorte2} alt="Imagen de la tarjeta" />

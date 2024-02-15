@@ -71,7 +71,7 @@
         color: white;
         /* background-color: rgba(0, 0, 0, 0.421); */
         padding-bottom: 20px;
-        background-image: url("https://sumarservicios.com.ar/wp-content/uploads/2020/01/Home_solicita-asesoramiento_fondo-3-1.jpg");
+       
         background-size: cover;
         /* Ajusta el tamaño de la imagen de fondo */
         background-repeat: no-repeat;
@@ -80,7 +80,7 @@
         /* Centra la imagen de fondo */
         background-attachment: fixed;
 
-
+        
     }
 
     .contenedor-objetivo-3 h3 {
@@ -218,7 +218,6 @@
         color: white;
         background-color: rgba(0, 0, 0, 0.421);
         padding-bottom: 20px;
-        background-image: url("https://sumarservicios.com.ar/wp-content/uploads/2020/01/Home_solicita-asesoramiento_fondo-3-1.jpg");
         background-size: cover;
         /* Ajusta el tamaño de la imagen de fondo */
         background-repeat: no-repeat;

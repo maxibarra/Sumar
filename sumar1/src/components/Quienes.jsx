@@ -1,4 +1,3 @@
-import React from 'react'
 import "./styles/quienes.css"; 
 import equipo from '../images/equipo.png'
 const Quienes = () => {
