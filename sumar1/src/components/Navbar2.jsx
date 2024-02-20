@@ -78,7 +78,7 @@ function Navbar2() {
                                     <a href="#">Plataformas de Altura</a>
 
                                     <div className="sub-menu-content">
-                                    <Link to="/sumar/BrazoArtDiesel">
+                                        <Link to="/sumar/BrazoArtDiesel">
                                             <a>Brazo articulado diesel</a>
                                         </Link>
                                         <Link to="/sumar/BrazoElectrico">
@@ -91,7 +91,7 @@ function Navbar2() {
                                             <a>Tijera todo-terreno diesel</a>
                                         </Link>
                                         <Link to="/sumar/TijeraElectrica" >
-                                            <a>Tijera eléctrica</a>
+                                            Tijera eléctrica
                                         </Link>
                                     </div>
                                 </div>

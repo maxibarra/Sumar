@@ -26,7 +26,7 @@ const ElectrogenoDiesel = () => {
             />
                 <p><strong>Sumar Servicios Industriales SRL</strong> se dedica a la fabricación de grupos electrógenos diésel y gas desde el año 2013, apostando a la calidad de los componentes y la fabricación de los mismos.
                     <br /><br />
-                    Apoyándose principalmente en los motores Baudouin, FPT, PERKINS, CUMMINS y SCANIA, en los alternadores en marcas como WEG.
+                    Apoyándose principalmente en los motores BAUDOUIN, FPT, PERKINS, CUMMINS y SCANIA, en los alternadores en marcas como WEG.
                     <br /><br />
                     Los componentes eléctricos de nuestros grupos electrógenos diésel y gas  principalmente son: ABB y WEG.
                     <br /><br />

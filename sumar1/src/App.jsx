@@ -32,7 +32,6 @@ function App() {
         <Route path="/sumar/" element={<Home />} />
         <Route path="/sumar/electrogenodiesel" element={<ElectrogenoDiesel />} />
         <Route path="/sumar/electrogenogas" element={<ElectrogenoGas />} />
-        <Route path="/sumar/tijeraelectrica" element={<TijeraElectrica />} />
         <Route path="/sumar/torresled" element={<TorresLed />} />
         <Route path="/sumar/BrazoArtDiesel" element={<BrazoArtDiesel />} />
         <Route path="/sumar/BrazoElectrico" element={<BrazoElectrico />} />

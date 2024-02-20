@@ -1,6 +1,7 @@
-
+import {useState} from 'react'
 import PlataformaAltura from '../images/videos/PlataformaAltura.mp4'
 import './stylesPages/tijeraelectrica.css'
+
 const TijeraElectrica = () => {
     const [playing, setPlaying] = useState(true);
 
