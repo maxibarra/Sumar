@@ -16,7 +16,7 @@ const ElectrogenoDiesel = () => {
                 </button> */}
             {/* </div> */}
             <div className='trogenocontaniner'>
-                <h1><strong>Grupos electrógenos diesel y Gas</strong></h1>
+                <h1><strong>Grupos electrógenos Diesel y Gas</strong></h1>
 
                 <video
                 muted
