@@ -2125,19 +2125,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   position: fixed;
   bottom: 10px;
   right: 20px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   background-color: #ed1b34;
   color: white;
   border: none;
   border-radius: 50%;
-  padding: 20px;
+  padding: 15px;
   cursor: pointer;
   display: none; /* Se oculta inicialmente */
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
   
 .scrollTop:hover {
+  border: 1px solid black;
   background-color: #fff;
   color:#ed1b34;
 }
-  `;return s.jsxs("div",{children:[s.jsx("style",{children:a}),s.jsx("a",{href:"https://api.whatsapp.com/send/?phone=5493517667501&text&type=phone_number&app_absent=0",className:"whatsapp-link",children:s.jsx("img",{src:_4,alt:"WhatsApp",className:"whatsapp-icon"})}),s.jsx("a",{href:"mailto:comercialcba@sumarservicios.com.ar ",className:"email-link",children:s.jsx("img",{src:I4,alt:"Email",className:"email-icon"})}),s.jsx("button",{className:"scrollTop",onClick:r,style:{display:e?"flex":"none"},children:s.jsx(T2,{style:{fontSize:"30px"}})})]})};function A4(){return s.jsx("div",{children:s.jsx(L4,{project:"https://www.stack-ai.com/embed/79b1afa1-e824-4774-9ed8-171e87244404/02c2a5e4-d9b7-4590-b6f8-9928c4f56d5a/6579e625af130d25d522940f"})})}function D4(){return s.jsxs(b2,{children:[s.jsx(_2,{}),s.jsx(A2,{}),s.jsxs(p2,{children:[s.jsx(Ke,{path:"/sumar/",element:s.jsx(o4,{})}),s.jsx(Ke,{path:"/sumar/electrogenodiesel",element:s.jsx(l4,{})}),s.jsx(Ke,{path:"/sumar/electrogenogas",element:s.jsx(c4,{})}),s.jsx(Ke,{path:"/sumar/torresled",element:s.jsx(f4,{})}),s.jsx(Ke,{path:"/sumar/BrazoArtDiesel",element:s.jsx(h4,{})}),s.jsx(Ke,{path:"/sumar/BrazoElectrico",element:s.jsx(P4,{})}),s.jsx(Ke,{path:"/sumar/BrazoTelescopico",element:s.jsx(v4,{})}),s.jsx(Ke,{path:"/sumar/TijeraDiesel",element:s.jsx(y4,{})}),s.jsx(Ke,{path:"/sumar/TijeraElectrica",element:s.jsx(x4,{})}),s.jsx(Ke,{path:"/sumar/Tableros",element:s.jsx(b4,{})}),s.jsx(Ke,{path:"/sumar/QuienesSomos",element:s.jsx(S4,{})}),s.jsx(Ke,{path:"/sumar/Instalaciones",element:s.jsx(k4,{})}),s.jsx(Ke,{path:"/sumar/Servicios",element:s.jsx(E4,{})}),s.jsx(Ke,{path:"/sumar/Contacto",element:s.jsx(C4,{})}),s.jsx(Ke,{path:"/sumar/chatbot",element:s.jsx(A4,{})})]}),s.jsx(M4,{}),s.jsx($2,{})]})}Ul.createRoot(document.getElementById("root")).render(s.jsx(Tt.StrictMode,{children:s.jsx(D4,{})}));
+  `;return s.jsxs("div",{children:[s.jsx("style",{children:a}),s.jsx("a",{href:"https://api.whatsapp.com/send/?phone=5493517667501&text&type=phone_number&app_absent=0",className:"whatsapp-link",children:s.jsx("img",{src:_4,alt:"WhatsApp",className:"whatsapp-icon"})}),s.jsx("a",{href:"mailto:comercialcba@sumarservicios.com.ar ",className:"email-link",children:s.jsx("img",{src:I4,alt:"Email",className:"email-icon"})}),s.jsx("button",{className:"scrollTop",onClick:r,style:{display:e?"flex":"none"},children:s.jsx(T2,{style:{fontSize:"15px"}})})]})};function A4(){return s.jsx("div",{children:s.jsx(L4,{project:"https://www.stack-ai.com/embed/79b1afa1-e824-4774-9ed8-171e87244404/02c2a5e4-d9b7-4590-b6f8-9928c4f56d5a/6579e625af130d25d522940f"})})}function D4(){return s.jsxs(b2,{children:[s.jsx(_2,{}),s.jsx(A2,{}),s.jsxs(p2,{children:[s.jsx(Ke,{path:"/sumar/",element:s.jsx(o4,{})}),s.jsx(Ke,{path:"/sumar/electrogenodiesel",element:s.jsx(l4,{})}),s.jsx(Ke,{path:"/sumar/electrogenogas",element:s.jsx(c4,{})}),s.jsx(Ke,{path:"/sumar/torresled",element:s.jsx(f4,{})}),s.jsx(Ke,{path:"/sumar/BrazoArtDiesel",element:s.jsx(h4,{})}),s.jsx(Ke,{path:"/sumar/BrazoElectrico",element:s.jsx(P4,{})}),s.jsx(Ke,{path:"/sumar/BrazoTelescopico",element:s.jsx(v4,{})}),s.jsx(Ke,{path:"/sumar/TijeraDiesel",element:s.jsx(y4,{})}),s.jsx(Ke,{path:"/sumar/TijeraElectrica",element:s.jsx(x4,{})}),s.jsx(Ke,{path:"/sumar/Tableros",element:s.jsx(b4,{})}),s.jsx(Ke,{path:"/sumar/QuienesSomos",element:s.jsx(S4,{})}),s.jsx(Ke,{path:"/sumar/Instalaciones",element:s.jsx(k4,{})}),s.jsx(Ke,{path:"/sumar/Servicios",element:s.jsx(E4,{})}),s.jsx(Ke,{path:"/sumar/Contacto",element:s.jsx(C4,{})}),s.jsx(Ke,{path:"/sumar/chatbot",element:s.jsx(A4,{})})]}),s.jsx(M4,{}),s.jsx($2,{})]})}Ul.createRoot(document.getElementById("root")).render(s.jsx(Tt.StrictMode,{children:s.jsx(D4,{})}));
