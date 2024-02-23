@@ -1,9 +1,27 @@
-import React from 'react';
+import { useState }from 'react';
 import iconwat from '../images/what_icon.png';
 import email_icon from '../images/email_icon.png';
+import { FaArrowUp } from "react-icons/fa";
 import Stack from 'react-stackai';
 
 const Whatsapp = () => {
+
+  const [showScroll, setShowScroll] = useState(false);
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 400) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 400) {
+      setShowScroll(false);
+    }
+  };
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  window.addEventListener('scroll', checkScrollTop);
+
   const styles = `
     .whatsapp-link {
       position: fixed;
@@ -60,6 +78,25 @@ const Whatsapp = () => {
     .chatbot-icon:hover {
       /* Agrega estilos adicionales al hover si es necesario */
     }
+    .scrollTop {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 120px;
+  background-color: #ed1b34;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  display: none; /* Se oculta inicialmente */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+  
+.scrollTop:hover {
+  background-color: #fff;
+  color:#ed1b34;
+}
   `;
 
   return (
@@ -73,11 +110,17 @@ const Whatsapp = () => {
       <a href="mailto:comercialcba@sumarservicios.com.ar " className="email-link">
         <img src={email_icon} alt="Email" className="email-icon" />
       </a>
-
+      <button className="scrollTop" onClick={scrollTop} style={{ display: showScroll ? 'flex' : 'none' }}>
+          <FaArrowUp style={{ fontSize:'30px'}}/>
+      </button>
       {/* <div className="chatbot-link">
         <Stack project="https://www.stack-ai.com/embed/79b1afa1-e824-4774-9ed8-171e87244404/02c2a5e4-d9b7-4590-b6f8-9928c4f56d5a/6579e625af130d25d522940f" className="chatbot-icon" />
       </div> */}
+     
+    
+      
     </div>
+    
   );
 };
 
