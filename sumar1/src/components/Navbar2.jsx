@@ -23,7 +23,7 @@ function Navbar2() {
         <div>
 
             <div className='imgmovil'>
-                <Link to="/">
+                <Link to="/sumar/">
                     <img src={Logo1} alt="logo" className='logo1' />
                 </Link>
 
@@ -33,7 +33,7 @@ function Navbar2() {
             </div>
 
             <nav className="navbar" >
-                <Link to="/">
+                <Link to="/sumar/">
                     <img src={Logo2} alt="logo" className='img' />
                 </Link>
 
