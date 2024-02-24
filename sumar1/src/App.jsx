@@ -28,8 +28,8 @@ function App() {
       <Navbar />
       <Navbar2 />
       <Routes>
-        {/* <Route path="/home" element={<Home />} /> */}
-        <Route path="/sumar/" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />*/}
         <Route path="/sumar/electrogenodiesel" element={<ElectrogenoDiesel />} />
         <Route path="/sumar/electrogenogas" element={<ElectrogenoGas />} />
         <Route path="/sumar/torresled" element={<TorresLed />} />
